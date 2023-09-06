@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="bbiChangeOwner.Caption" xml:space="preserve">
+    <value>更改擁有者</value>
+  </data>
+  <data name="bbiChangePermissions.Caption" xml:space="preserve">
+    <value>更改權限</value>
+  </data>
+  <data name="bbiCreateFile.Caption" xml:space="preserve">
+    <value>建立檔案</value>
+  </data>
+  <data name="bbiCreateFolder.Caption" xml:space="preserve">
+    <value>新增資料夾</value>
+  </data>
+  <data name="bbiDelete.Caption" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="bbiForceKill.Caption" xml:space="preserve">
+    <value>強制關閉程式</value>
+  </data>
+  <data name="bbiOpen.Caption" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="bbiReloadVms.Caption" xml:space="preserve">
+    <value>重新載入清單</value>
+  </data>
+  <data name="bbiRename.Caption" xml:space="preserve">
+    <value>重新命名</value>
+  </data>
+  <data name="bbiStopAll.Caption" xml:space="preserve">
+    <value>全部停止</value>
+  </data>
+  <data name="bbiSubCreate.Caption" xml:space="preserve">
+    <value>建立</value>
+  </data>
+  <data name="ceAdbAutoRestart.Text" xml:space="preserve">
+    <value>ADB 伺服器自動重啟</value>
+  </data>
+  <data name="ceDontSetExecute.Text" xml:space="preserve">
+    <value>未在子文件上設定執行 (X) </value>
+  </data>
+  <data name="ceIncludeSubfolders.Text" xml:space="preserve">
+    <value>包含所有子資料夾和檔案</value>
+  </data>
+  <data name="ceOverwriteExist.Text" xml:space="preserve">
+    <value>覆蓋目前的文件</value>
+  </data>
+  <data name="ceSelectAll.Text" xml:space="preserve">
+    <value>全部選擇</value>
+  </data>
+  <data name="Column.Attribute.Caption" xml:space="preserve">
+    <value>屬性</value>
+  </data>
+  <data name="Column.Group.Caption" xml:space="preserve">
+    <value>組織</value>
+  </data>
+  <data name="Column.Length.Caption" xml:space="preserve">
+    <value>大小</value>
+  </data>
+  <data name="Column.Name.Caption" xml:space="preserve">
+    <value>名稱</value>
+  </data>
+  <data name="Column.Owner.Caption" xml:space="preserve">
+    <value>擁有者</value>
+  </data>
+  <data name="dpDevice.Text" xml:space="preserve">
+    <value>裝置</value>
+  </data>
+  <data name="dpHelpers.Text" xml:space="preserve">
+    <value>輔助功能</value>
+  </data>
+  <data name="dpInfo.Text" xml:space="preserve">
+    <value>資訊</value>
+  </data>
+  <data name="dpLogsExtend.Text" xml:space="preserve">
+    <value>日誌</value>
+  </data>
+  <data name="dpMain.Text" xml:space="preserve">
+    <value>選擇要操作的模擬器引擎</value>
+  </data>
+  <data name="dpPhone.Text" xml:space="preserve">
+    <value>手機</value>
+  </data>
+  <data name="dpRoot.Text" xml:space="preserve">
+    <value>超級使用者</value>
+  </data>
+  <data name="dpSettings.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="lcAdbServerState.Text" xml:space="preserve">
+    <value>ADB 伺服器</value>
+  </data>
+  <data name="lcCompressDriveTitle.Text" xml:space="preserve">
+    <value>硬碟清理（壓縮）</value>
+  </data>
+  <data name="lcCopyToLabel.Text" xml:space="preserve">
+    <value>複製到：</value>
+  </data>
+  <data name="lcDataDirTitle.Text" xml:space="preserve">
+    <value>使用者資料路徑</value>
+  </data>
+  <data name="lcEmulatorSelectorTitle.Text" xml:space="preserve">
+    <value>模擬器</value>
+  </data>
+  <data name="lcFactoryResetTitle.Text" xml:space="preserve">
+    <value>還原到出廠設定</value>
+  </data>
+  <data name="lcGroupTitle.Text" xml:space="preserve">
+    <value>組織</value>
+  </data>
+  <data name="lcHttpRequest.Text" xml:space="preserve">
+    <value>請求：</value>
+  </data>
+  <data name="lcLanguageSelectorTitle.Text" xml:space="preserve">
+    <value>語言</value>
+  </data>
+  <data name="lcLatitudeTitle.Text" xml:space="preserve">
+    <value>緯度</value>
+  </data>
+  <data name="lcLongitudeTitle.Text" xml:space="preserve">
+    <value>經度</value>
+  </data>
+  <data name="lcNameTitle.Text" xml:space="preserve">
+    <value>名稱</value>
+  </data>
+  <data name="lcNoWarranty.Text" xml:space="preserve">
+    <value>此版本僅適用於測試人員！！！</value>
+  </data>
+  <data name="lcOthersTitle.Text" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="lcOwnerTitle.Text" xml:space="preserve">
+    <value>擁有者</value>
+  </data>
+  <data name="lcPhoneBrandTitle.Text" xml:space="preserve">
+    <value>品牌</value>
+  </data>
+  <data name="lcPhoneCountryTitle.Text" xml:space="preserve">
+    <value>國家</value>
+  </data>
+  <data name="lcPhoneDeviceTitle.Text" xml:space="preserve">
+    <value>裝置型號</value>
+  </data>
+  <data name="lcPhoneManufacturerTitle.Text" xml:space="preserve">
+    <value>製造商</value>
+  </data>
+  <data name="lcPhoneModelTitle.Text" xml:space="preserve">
+    <value>裝置名稱</value>
+  </data>
+  <data name="lcPhoneNumberTitle.Text" xml:space="preserve">
+    <value>手機號碼</value>
+  </data>
+  <data name="lcPhoneOperatorTitle.Text" xml:space="preserve">
+    <value>手機營運商</value>
+  </data>
+  <data name="lcPremiumTitle.Text" xml:space="preserve">
+    <value>進階功能</value>
+  </data>
+  <data name="lcProgramDirTitle.Text" xml:space="preserve">
+    <value>應用程式路徑</value>
+  </data>
+  <data name="lcPromoTitle.Text" xml:space="preserve">
+    <value>推薦應用</value>
+  </data>
+  <data name="lcSelectedDataDirTitle.Text" xml:space="preserve">
+    <value>引擎檔案路徑</value>
+  </data>
+  <data name="lcSingleTabTitle.Text" xml:space="preserve">
+    <value>單分頁模式</value>
+  </data>
+  <data name="lcThemeSelectorTitle.Text" xml:space="preserve">
+    <value>主題</value>
+  </data>
+  <data name="lcVersionTitle.Text" xml:space="preserve">
+    <value>產品版本號</value>
+  </data>
+  <data name="rGroupUpdate.0.Description" xml:space="preserve">
+    <value>每天一次</value>
+  </data>
+  <data name="rGroupUpdate.1.Description" xml:space="preserve">
+    <value>每週一次</value>
+  </data>
+  <data name="rGroupUpdate.2.Description" xml:space="preserve">
+    <value>每一個月</value>
+  </data>
+  <data name="rGroupUpdate.3.Description" xml:space="preserve">
+    <value>關閉檢查更新</value>
+  </data>
+  <data name="sbApply.Text" xml:space="preserve">
+    <value>套用</value>
+  </data>
+  <data name="sbApplyGps.Text" xml:space="preserve">
+    <value>套用</value>
+  </data>
+  <data name="sbApplyProperty.Text" xml:space="preserve">
+    <value>套用</value>
+  </data>
+  <data name="sbCancel.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="sbCheckUpdate.Text" xml:space="preserve">
+    <value>檢查更新</value>
+  </data>
+  <data name="sbCompress.Text" xml:space="preserve">
+    <value>壓縮</value>
+  </data>
+  <data name="sbFileManager.Text" xml:space="preserve">
+    <value>檔案管理器</value>
+  </data>
+  <data name="sbFMCopy.Text" xml:space="preserve">
+    <value>複製(F5)</value>
+  </data>
+  <data name="sbFMCreateFile.Text" xml:space="preserve">
+    <value>文件(F7)</value>
+  </data>
+  <data name="sbFMCreateFolder.Text" xml:space="preserve">
+    <value>資料夾(F7)</value>
+  </data>
+  <data name="sbFMDelete.Text" xml:space="preserve">
+    <value>刪除(F8)</value>
+  </data>
+  <data name="sbFMMove.Text" xml:space="preserve">
+    <value>移動(F6)</value>
+  </data>
+  <data name="sbFMOpen.Text" xml:space="preserve">
+    <value>開啟(F3)</value>
+  </data>
+  <data name="sbFMRename.Text" xml:space="preserve">
+    <value>重新命名(F2)</value>
+  </data>
+  <data name="sbGenerateRandomGps.Text" xml:space="preserve">
+    <value>隨機</value>
+  </data>
+  <data name="sbGenerateRandomPhoneNumber.Text" xml:space="preserve">
+    <value>隨機</value>
+  </data>
+  <data name="sbGenerateRandomProperty.Text" xml:space="preserve">
+    <value>隨機</value>
+  </data>
+  <data name="sbInstallSuperSu.Text" xml:space="preserve">
+    <value>安裝 SuperSu</value>
+  </data>
+  <data name="sbOpenLocalSettingsFolder.Text" xml:space="preserve">
+    <value>開啟資料夾</value>
+  </data>
+  <data name="sbOpenLogFile.Text" xml:space="preserve">
+    <value>開啟 debug 日誌</value>
+  </data>
+  <data name="sbOpenTerminal.Text" xml:space="preserve">
+    <value>終端機</value>
+  </data>
+  <data name="sbReadProperty.Text" xml:space="preserve">
+    <value>讀取</value>
+  </data>
+  <data name="sbSendHttpRequest.Text" xml:space="preserve">
+    <value>發送</value>
+  </data>
+  <data name="sbUpdateSuperSu.Text" xml:space="preserve">
+    <value>更新 Su 二進製檔案</value>
+  </data>
+  <data name="sbWebServerStart.Text" xml:space="preserve">
+    <value>啟動 HTTP 伺服器</value>
+  </data>
+  <data name="sbZeroFill.Text" xml:space="preserve">
+    <value>準備</value>
+  </data>
+  <data name="Static.ActualVersion" xml:space="preserve">
+    <value>目前版本</value>
+  </data>
+  <data name="Static.FMChangeOwnerTitle" xml:space="preserve">
+    <value>更改擁有者</value>
+  </data>
+  <data name="Static.FMChangePermissionsTitle" xml:space="preserve">
+    <value>更改權限</value>
+  </data>
+  <data name="Static.FMCreateFileTitle" xml:space="preserve">
+    <value>建立檔案</value>
+  </data>
+  <data name="Static.FMCreateFolderTitle" xml:space="preserve">
+    <value>建立資料夾</value>
+  </data>
+  <data name="Static.FMFolder" xml:space="preserve">
+    <value>資料夾</value>
+  </data>
+  <data name="Static.FMRenameTitle" xml:space="preserve">
+    <value>更改名稱</value>
+  </data>
+  <data name="Static.NotSupport" xml:space="preserve">
+    <value>不支援 ({0}) 此版本</value>
+  </data>
+  <data name="Static.ThereIsNoUpdate" xml:space="preserve">
+    <value>沒有新的版本</value>
+  </data>
+  <data name="teFilter.NullValuePrompt" xml:space="preserve">
+    <value>篩選</value>
+  </data>
+  <data name="lcBSHideLauncher.Text" xml:space="preserve">
+    <value>隱藏Android啟動器 *</value>
+  </data>
+  <data name="lcBSHideLauncher.ToolTip" xml:space="preserve">
+    <value>在套用修補程式之前安裝其他的Android啟動器</value>
+  </data>
+  <data name="lcRootHyperVAttention.Text" xml:space="preserve">
+    <value>You should use modified HD-Player.exe for additional instances</value>
+  </data>
+</root>
